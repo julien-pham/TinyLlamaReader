@@ -17,8 +17,6 @@ This project allows you to ask questions about a collection of SAS Visual Analyt
 
 ## 📁 Project Structure
 
-
-## Structure du répertoire
     .
     ├── data/                                 # Contains the input PDFs, text files, embeddings, and models
     │   ├── doc_pdf/                          # Input PDFs
