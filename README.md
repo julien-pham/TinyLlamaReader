@@ -17,26 +17,26 @@ This project allows you to ask questions about a collection of SAS Visual Analyt
 
 ## 📁 Project Structure
 
-projet_llm/
-├── data/
-│   ├── doc_pdf/              # Input PDFs
-│   ├── doc_txt/              # Extracted text files
-│   ├── models/               # TinyLlama GGUF model
-│   ├── vectors/              # Saved embeddings
-│   └── pdf_state.txt         # Tracks processed PDFs
-│
-├── scripts/
-│   ├── pdf_processing.py
-│   ├── vectors_chunks_processing.py
-│   ├── llm_interaction.py
-│   └── semantic_search.py
-│
-├── main.py                   # Main entrypoint
-├── requirements.txt
-├── LICENSE
-└── README.md
 
----
+## Structure du répertoire
+    .
+    ├── data/                                 # Contains the input PDFs, text files, embeddings, and models
+    │   ├── doc_pdf/                          # Input PDFs
+    │   ├── doc_txt/                          # Extracted text files
+    │   ├── models/                           # TinyLlama GGUF model
+    │   ├── vectors/                          # Saved embeddings
+    │   └── pdf_state.txt                     # Tracks processed PDFs
+    │
+    ├── scripts/                              # Contains Python scripts for processing
+    │   ├── pdf_processing.py                 # Handles PDF extraction and text processing
+    │   ├── vectors_chunks_processing.py      # Processes chunks and embeddings
+    │   ├── llm_interaction.py                # Interfaces with TinyLlama for answering questions
+    │   └── semantic_search.py                # Performs semantic search on text
+    │
+    ├── main.py                               # Main entrypoint for running the assistant
+    ├── requirements.txt                      # Lists required Python libraries
+    ├── LICENSE                               # Project license file
+    └── README.md                             # Project documentation
 
 ## 📦 Installation
 
@@ -71,10 +71,7 @@ python main.py
 
 Example:
 ```text
-❓ Ask your question (or type 'exit' to quit): What is SAS Visual Analytics used for?
-
-🧠 Answer:
-SAS Visual Analytics is used for interactive data exploration, reporting, and advanced analytics such as forecasting, trend analysis, and decision trees. It enables business users to create dashboards and insights without needing to write code.
+blablabla
 ```
 
 ---
@@ -97,6 +94,6 @@ It uses the [TinyLlama model](https://huggingface.co/cmp-nct/TinyLlama-1.1B-Chat
 ---
 
 ## 🙌 Acknowledgments
-- You can refer to the official [SAS Visual Analytics](https://go.documentation.sas.com/doc/en/vacdc/7.5/homeapp/titlepage.htm) documentation for more information about the software.
+- [SAS Visual Analytics](https://go.documentation.sas.com/doc/en/vacdc/7.5/homeapp/titlepage.htm) for the official documentation PDFs.
 - [TinyLlama](https://github.com/jzhang38/TinyLlama) for the pre-trained language model.
 - [Sentence Transformers](https://www.sbert.net/) for providing the embedding model used for semantic search.
