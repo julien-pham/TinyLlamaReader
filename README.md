@@ -53,6 +53,11 @@ pip install -r requirements.txt
 - Download the `.gguf` file (e.g., `tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf`)
 - Place it in `data/models/`
 
+### 4. Add your PDFs
+- Place your PDFs in `data/doc_pdf`
+
+### 5. Run the main.py script
+
 ---
 
 ## 🛠️ Usage
