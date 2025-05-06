@@ -37,7 +37,7 @@ def combine_llm_and_semantic_response(
 
     # Step 1: Direct LLM response
     prompt_llm_direct = (
-        "<|system|>\nYou are a SAS Visual Analytics assistant.\n</s>\n" +
+        "<|system|>\nYou are a helpful assistant.\n</s>\n" +
         history_prompt +
         f"<|user|>\n{question}\n</s>\n<|assistant|>\n"
     )
@@ -49,7 +49,7 @@ def combine_llm_and_semantic_response(
 
     # Step 3: Combine everything
     prompt_combined = (
-        "<|system|>\nYou are a helpful assistant for SAS Visual Analytics.\n</s>\n" +
+        "<|system|>\nYou are a helpful assistant.\n</s>\n" +
         history_prompt +
         f"<|user|>\nHere is a question: {question}\n\n"
         f"Draft answer:\n\"\"\"\n{direct_response}\n\"\"\"\n\n"
