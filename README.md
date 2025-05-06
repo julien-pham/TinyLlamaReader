@@ -114,3 +114,4 @@ It uses the [TinyLlama model](https://huggingface.co/cmp-nct/TinyLlama-1.1B-Chat
 ## 🙌 Acknowledgments
 - [TinyLlama](https://github.com/jzhang38/TinyLlama) for the pre-trained language model.
 - [Sentence Transformers](https://www.sbert.net/) for providing the embedding model used for semantic search.
+- Developed by Julien PHAM, as part of a personal project using local LLMs and semantic search for document understanding.
