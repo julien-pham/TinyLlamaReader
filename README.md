@@ -1,7 +1,7 @@
 
-# 🧠 LLM Assistant for PDF Analysis (SAS Visual Analytics)
+# 🧠 LLM Assistant for PDF Analysis
 
-This project allows you to ask questions about a collection of SAS Visual Analytics PDF documents using a local language model (TinyLlama) combined with semantic search.
+This project allows you to ask questions about a collection of PDF documents using a local language model (TinyLlama) combined with semantic search.
 
 ---
 
@@ -107,6 +107,5 @@ It uses the [TinyLlama model](https://huggingface.co/cmp-nct/TinyLlama-1.1B-Chat
 ---
 
 ## 🙌 Acknowledgments
-- [SAS Visual Analytics](https://go.documentation.sas.com/doc/en/vacdc/7.5/homeapp/titlepage.htm) for the official documentation PDFs.
 - [TinyLlama](https://github.com/jzhang38/TinyLlama) for the pre-trained language model.
 - [Sentence Transformers](https://www.sbert.net/) for providing the embedding model used for semantic search.
