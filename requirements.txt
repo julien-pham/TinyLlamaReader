@@ -1,0 +1,12 @@
+# PDF text extraction
+PyMuPDF==1.23.7         # for importing 'fitz'
+
+# Array and math operations
+numpy>=1.21.0
+
+# Semantic search and embeddings
+sentence-transformers==2.2.2
+scikit-learn>=1.0.0     # for cosine_similarity
+
+# Local LLM inference using TinyLlama
+llama-cpp-python==0.2.36
