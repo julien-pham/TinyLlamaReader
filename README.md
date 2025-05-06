@@ -95,15 +95,6 @@ Specifying options in the Options panes of the SAS can customize the histogram t
 
 ---
 
-## 🧠 How It Works
-
-1. **Text Extraction**: Converts each PDF to text using `PyMuPDF`.
-2. **Chunking**: Splits the text into manageable parts.
-3. **Vectorization**: Embeds chunks with `sentence-transformers`.
-4. **Semantic Search**: Finds the most relevant chunk(s) for a question.
-5. **LLM Interaction**: Uses TinyLlama to generate and refine the final answer.
-
----
 
 ## 📝 License
 
