@@ -40,8 +40,7 @@ This project allows you to ask questions about a collection of SAS Visual Analyt
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/projet_llm.git
-cd projet_llm
+git clone ...
 ```
 
 ### 2. Install dependencies
@@ -58,18 +57,34 @@ pip install -r requirements.txt
 
 ## 🛠️ Usage
 
-1. Place your SAS Visual Analytics PDF files in the `data/doc_pdf/` folder.
-
-2. Run the assistant:
-```bash
-python main.py
 ```
+📁 Checking PDF state...
+✅ PDFs are up to date. Loading existing vectors...
+📂 Loading vectors from C:\Users\...
+🔄 Loading SentenceTransformer model...
+🤖 Assistant is ready to answer your questions on SAS Visual Analytics!
+❓ Ask your question (or type 'exit' to quit): what options are available for histograms on sas?
 
-3. Ask questions about the content. Type `exit` to quit the assistant.
+🧠 Answer:
+In addition to the general options, there are three options specific to histograms on SAS: direction, transparency, and bin range.
 
-Example:
-```text
-blablabla
+Direction:
+Direction specifies whether the bars are vertical or horizontal.
+
+Transparency:
+Transparency specifies the amount of transparency for the bars.
+
+Bi-range:
+Bi-range specifies how the boundaries of the bin ranges are determined.
+
+For example, when setting direction, the user can choose between "vertical" or "horizontal". With vertical, the bars are vertical, extending from the minimum value to the maximum value. With horizontal, the bars are horizontal, extending from the minimum value to the maximum value, but with some extra space in between the ranges.
+
+For transparency, the user can choose between "system-determined values" or "rounding of boundaries". "System-determined values" might place the boundaries at rounded values, while "rounding of boundaries" might extend the boundaries a bit more.
+
+Bin range:
+Bin range specifies how the boundaries of the bin ranges are determined. The user can choose between "system-determined values" or "rounding of boundaries". "System-determined values" might place the boundaries at rounded values, while "rounding of boundaries" might extend the boundaries a bit more.
+
+Specifying options in the Options panes of the SAS can customize the histogram to match the specific data values and requirements.
 ```
 
 ---
