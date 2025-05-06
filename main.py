@@ -47,7 +47,7 @@ def main():
         print("🔄 Loading SentenceTransformer model...")
         model = SentenceTransformer('all-MiniLM-L6-v2')
 
-    print("🤖 Assistant is ready to answer your questions on SAS Visual Analytics!")
+    print("🤖 Assistant is ready to answer your questions based on the PDFs you provided !")
 
     # ⏱️ Initialize chat history
     chat_history = []
