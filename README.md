@@ -1,7 +1,8 @@
 
 # 🧠 LLM Assistant for PDF Analysis
 
-This project allows you to ask questions about a collection of PDF documents using a local language model (TinyLlama) combined with semantic search.
+This project lets you interact with the content of your own PDF files by asking questions. It uses a local language model (TinyLlama) combined with semantic search based on sentence embeddings to retrieve relevant context and generate accurate, context-aware answers. All without relying on external APIs or internet access.
+
 
 ---
 
