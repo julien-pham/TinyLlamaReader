@@ -99,7 +99,7 @@ Specifying options in the Options panes of the SAS can customize the histogram t
 ## 📝 License
 
 This project is licensed under the **Apache 2.0 License**.  
-It uses the [TinyLlama model](https://huggingface.co/cmp-nct/TinyLlama-1.1B-Chat-v1.0) which is also under the Apache 2.0 License.
+It uses the [TinyLlama model](https://github.com/jzhang38/TinyLlama) which is also under the Apache 2.0 License.
 
 ---
 
