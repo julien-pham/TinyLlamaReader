@@ -39,6 +39,17 @@ This project lets you interact with the content of your own PDF files by asking 
 
 ## 📦 Installation
 
+### 0. Prerequisites
+Make sure the following tools are installed before installing the dependencies:
+
+    -Git installed and added to your system's PATH
+    
+    -CMake and C++ build tools (required to compile llama-cpp-python)
+
+On Windows: install via Visual Studio Installer by selecting "Desktop development with C++"
+
+On Linux/macOS: use your package manager (e.g., apt install cmake or brew install cmake)
+
 ### 1. Clone the repository
 ```bash
 git clone ...
