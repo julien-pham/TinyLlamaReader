@@ -52,7 +52,7 @@ On Linux/macOS: use your package manager (e.g., apt install cmake or brew instal
 
 ### 1. Clone the repository
 ```bash
-git clone ...
+git clone https://github.com/julien-pham/TinyLlamaReader.git
 ```
 
 ### 2. Install dependencies
